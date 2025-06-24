@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calendar To-Do List</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body class="dark">
+  <div class="app">
+    <div class="header">
+      <h1>🗕️ Calendar To-Do</h1>
+      <button id="themeToggle">☀️</button>
+    </div>
+
+    <div class="date-selector">
+      <label for="dateInput">Select Date:</label>
+      <input type="date" id="dateInput" />
+    </div>
+
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter task..." />
+
+      <div class="time-field">
+        <label id="startLabel" class="hidden">Start Time:</label>
+        <input type="time" id="startTimeInput" />
+      </div>
+
+      <div class="time-field">
+        <label id="endLabel" class="hidden">End Time:</label>
+        <input type="time" id="endTimeInput" />
+      </div>
+
+      <button id="addBtn">+</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
