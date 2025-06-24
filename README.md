@@ -35,15 +35,13 @@ todo-app/
 
 ## 📸 Screenshots
 
-> 💡 Place screenshots inside the `screenshots/` folder:
-
 ### 🌙 Dark Mode
 
-![Dark Mode](screenshot/dark.png)
+![Dark Mode](screenshots/dark.png)
 
 ### ☀️ Light Mode
 
-![Light Mode](screenshot/light.png)
+![Light Mode](screenshots/light.png)
 
 ---
 
