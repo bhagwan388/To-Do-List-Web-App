@@ -39,11 +39,11 @@ todo-app/
 
 ### 🌙 Dark Mode
 
-![Dark Mode](screenshots/dark.png)
+![Dark Mode](screenshot/dark.png)
 
 ### ☀️ Light Mode
 
-![Light Mode](screenshots/light.png)
+![Light Mode](screenshot/light.png)
 
 ---
 
